@@ -1,0 +1,132 @@
+[
+  {
+    "name": "cause_stumbling",
+    "risks": [
+      {
+        "name": "collide",
+        "en": "If the object is placed in an unexpected location or if a person becomes confused, it can lead to accidental falls or injuries.",
+        "es": "Si el objeto está colocado en un lugar inesperado o si una persona se confunde, puede provocar caídas accidentales o lesiones."
+      }
+    ]
+  },
+  {
+    "name": "playable",
+    "risks": [
+      {
+        "name": "break_objects",
+        "en": "If it is used for playful purposes without exercising caution, it has the potential to collide with other objects, resulting in their breakage.",
+        "es": "Si se utiliza con fines lúdicos sin tener precaución, puede chocar con otros objetos que pueden romperse."
+      }
+    ]
+  },
+  {
+    "name": "alive",
+    "risks": [
+      {
+        "name": "attack",
+        "en": "If it becomes confused or nervous, it can attack causing injuries.",
+        "es": "Si se confunde o se pone nervioso, puede atacar causando lesiones."
+      }
+    ]
+  },
+  {
+    "name": "eatable",
+    "risks": [
+      {
+        "name": "choke",
+        "en": "If it is eaten too fast or improperly, it can cause choking.",
+        "es": "Si se come demasiado rápido o de forma inadecuada, puede provocar asfixia."
+      }
+    ]
+  },
+  {
+    "name": "swallowable",
+    "risks": [
+      {
+        "name": "choke",
+        "en": "If it is used improperly, it can cause choking.",
+        "es": "Si no se utiliza correctamente, puede provocar atragantamientos."
+      }
+    ]
+  },
+  {
+    "name": "liquid_container",
+    "risks": [
+      {
+        "name": "spill_liquid",
+        "en": "If it collides with something, its content can be spilt.",
+        "es": "Si choca con algo, su contenido puede derramarse."
+      }
+    ]
+  },
+  {
+    "name": "sharp",
+    "risks": [
+      {
+        "name": "cause_cuts",
+        "en": "If it used improperly, it can cause injuries.",
+        "es": "Si no se utiliza correctamente, puede provocar lesiones."
+      }
+    ]
+  },
+  {
+    "name": "electric",
+    "risks": [
+      {
+        "name": "short-circuit",
+        "en": "If a short-circuit happens, it can cause electric shocks or burns.",
+        "es": "Si se produce un cortocircuito, puede causar descargas eléctricas o quemaduras."
+      }
+    ]
+  },
+  {
+    "name": "energy_consuming",
+    "risks": [
+      {
+        "name": "energy",
+        "en": "If it is powered on for a long time, it can lead to high energy consumption expenses.",
+        "es": "Si está encendido durante mucho tiempo, puede generar gastos elevados de consumo de energía."
+      }
+    ]
+  },
+  {
+    "name": "hot_interior",
+    "risks": [
+      {
+        "name": "high_temperature",
+        "en": "If a person touches the interior of the object when it is powered on, they can get burned.",
+        "es": "Si una persona toca el interior del objeto cuando está encendido, esta puede quemarse."
+      }
+    ]
+  },
+  {
+    "name": "fragile",
+    "risks": [
+      {
+        "name": "dangerous_pieces",
+        "en": "If it is made of a fragile material and collides with something, it can shatter into dangerous pieces that can cause injuries.",
+        "es": "Si está hecho de un material frágil y choca contra algo, puede romperse en pedazos peligrosos que pueden causar lesiones."
+      }
+    ]
+  },
+  {
+    "name": "water_related",
+    "risks": [
+      {
+        "name": "flood",
+        "en": "If water accumulates beyond the available capacity, it can cause flooding.",
+        "es": "Si el agua se acumula por encima de la capacidad disponible, puede provocar inundaciones."
+      }
+    ]
+  },
+  {
+    "name": "cause_burn_down",
+    "risks": [
+      {
+        "name": "burn_object",
+        "en": "If a flammable object is put on its interior, it can burn down",
+        "es": "Si se coloca un objeto inflamable en su interior, este puede arder"
+      }
+    ]
+  }
+]

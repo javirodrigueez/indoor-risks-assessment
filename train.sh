@@ -1,0 +1,23 @@
+python src/tasks/run_caption_VidSwinBert.py \
+        --config src/configs/VidSwinBert/charades_8frm_default.json \
+        --train_yaml CHARADES/train.yaml \
+        --val_yaml CHARADES/public_test.yaml \
+        --per_gpu_train_batch_size 1 \
+        --per_gpu_eval_batch_size 1 \
+        --num_train_epochs 15 \
+        --learning_rate 0.0003 \
+        --max_num_frames 32 \
+        --pretrained_2d 0 \
+        --backbone_coef_lr 0.05 \
+        --mask_prob 0.5 \
+        --max_masked_token 45 \
+        --zero_opt_stage 1 \
+        --mixed_precision_method deepspeed \
+        --deepspeed_fp16 \
+        --gradient_accumulation_steps 1 \
+        --learn_mask_enabled \
+        --loss_sparse_w 0.5 \
+        --output_dir ./output \
+        --use_checkpoint True \
+        --transfer_method 0 \
+        --resume_checkpoint models/table1/vatex/best-checkpoint/model.bin

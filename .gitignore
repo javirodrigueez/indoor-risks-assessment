@@ -1,0 +1,8 @@
+myscripts
+annotations
+datasets
+models
+videos
+output
+traced_model.pt
+!/yolo/models

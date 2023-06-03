@@ -1,0 +1,307 @@
+[
+  {
+    "object": "ball",
+    "properties": [ "playable", "cause_stumbling" ],
+    "specific_risks": []
+  },
+  {
+    "object": "bicycle",
+    "properties": [ "cause_stumbling" ],
+    "specific_risks": []
+  },
+  {
+    "object": "bench",
+    "properties": [ "cause_stumbling" ],
+    "specific_risks": []
+  },
+  {
+    "object": "bird",
+    "properties": [ "alive", "break_objects" ],
+    "specific_risks": []
+  },
+  {
+    "object": "cat",
+    "properties": [ "alive", "break_objects" ],
+    "specific_risks": []
+  },
+  {
+    "object": "dog",
+    "properties": [ "alive", "break_objects" ],
+    "specific_risks": []
+  },
+  {
+    "object": "umbrella",
+    "properties": [ "cause_stumbling" ],
+    "specific_risks": []
+  },
+  {
+    "object": "handbag",
+    "properties": [ "cause_stumbling" ],
+    "specific_risks": []
+  },
+  {
+    "object": "tie",
+    "properties": [],
+    "specific_risks": [
+      {
+        "name": "asphyxiation",
+        "en": "If it is tied tightly, it can cause asphyxiation",
+        "es": "Si está atado con fuerza, puede causar asfixia"
+      }
+    ]
+  },
+  {
+    "object": "suitcase",
+    "properties": [ "cause_stumbling" ],
+    "specific_risks": []
+  },
+  {
+    "object": "frisbee",
+    "properties": [ "break_objects" ],
+    "specific_risks": []
+  },
+  {
+    "object": "bat",
+    "properties": [ "cause_stumbling", "break_objects" ],
+    "specific_risks": []
+  },
+  {
+    "object": "racket",
+    "properties": [ "cause_stumbling", "break_objects" ],
+    "specific_risks": []
+  },
+  {
+    "object": "skateboard",
+    "properties": [ "cause_stumbling", "break_objects" ],
+    "specific_risks": []
+  },
+  {
+    "object": "bottle",
+    "properties": [ "liquid_container", "fragile" ],
+    "specific_risks": []
+  },
+  {
+    "object": "wineglass",
+    "properties": [ "liquid_container", "fragile" ],
+    "specific_risks": []
+  },
+  {
+    "object": "cup",
+    "properties": [ "liquid_container", "fragile" ],
+    "specific_risks": []
+  },
+  {
+    "object": "fork",
+    "properties": [ "sharp", "choke" ],
+    "specific_risks": []
+  },
+  {
+    "object": "knife",
+    "properties": [ "sharp" ],
+    "specific_risks": []
+  },
+  {
+    "object": "spoon",
+    "properties": [ "choke" ],
+    "specific_risks": []
+  },
+  {
+    "object": "bowl",
+    "properties": [ "fragile" ],
+    "specific_risks": []
+  },
+  {
+    "object": "banana",
+    "properties": [ "eatable" ],
+    "specific_risks": []
+  },
+  {
+    "object": "apple",
+    "properties": [ "eatable" ],
+    "specific_risks": []
+  },
+  {
+    "object": "sandwich",
+    "properties": [ "eatable" ],
+    "specific_risks": []
+  },
+  {
+    "object": "orange",
+    "properties": [ "eatable" ],
+    "specific_risks": []
+  },
+  {
+    "object": "broccoli",
+    "properties": [ "eatable" ],
+    "specific_risks": []
+  },
+  {
+    "object": "carrot",
+    "properties": [ "eatable" ],
+    "specific_risks": []
+  },
+  {
+    "object": "hotdog",
+    "properties": [ "eatable" ],
+    "specific_risks": []
+  },
+  {
+    "object": "pizza",
+    "properties": [ "eatable" ],
+    "specific_risks": []
+  },
+  {
+    "object": "donut",
+    "properties": [ "eatable" ],
+    "specific_risks": []
+  },
+  {
+    "object": "cake",
+    "properties": [ "eatable" ],
+    "specific_risks": []
+  },
+  {
+    "object": "chair",
+    "properties": [ "cause_stumbling" ],
+    "specific_risks": [
+      {
+        "name": "breakable",
+        "en": "If a person sits on it and it is constructed from soft materials, it can break.",
+        "es": "Si una persona se sienta en él y está construido con materiales blandos, puede romperse."
+      }
+    ]
+  },
+  {
+    "object": "couch",
+    "properties": [ "cause_stumbling" ],
+    "specific_risks": []
+  },
+  {
+    "object": "plant",
+    "properties": [ "cause_stumbling", "fragile" ],
+    "specific_risks": []
+  },
+  {
+    "object": "bed",
+    "properties": [ "cause_stumbling" ],
+    "specific_risks": []
+  },
+  {
+    "object": "table",
+    "properties": [ "cause_stumbling" ],
+    "specific_risks": []
+  },
+  {
+    "object": "toilet",
+    "properties": [ "cause_stumbling", "flood" ],
+    "specific_risks": []
+  },
+  {
+    "object": "tv",
+    "properties": [ "electric", "energy_consuming" ],
+    "specific_risks": []
+  },
+  {
+    "object": "laptop",
+    "properties": [ "electric" ],
+    "specific_risks": []
+  },
+  {
+    "object": "mouse",
+    "properties": [ "electric" ],
+    "specific_risks": []
+  },
+  {
+    "object": "remote",
+    "properties": [ "electric" ],
+    "specific_risks": []
+  },
+  {
+    "object": "keyboard",
+    "properties": [ "electric" ],
+    "specific_risks": []
+  },
+  {
+    "object": "cellphone",
+    "properties": [ "electric" ],
+    "specific_risks": []
+  },
+  {
+    "object": "microwave",
+    "properties": [ "electric", "hot_interior", "cause_burn_down" ],
+    "specific_risks": []
+  },
+  {
+    "object": "oven",
+    "properties": [ "electric", "hot_interior", "cause_burn_down" ],
+    "specific_risks": []
+  },
+  {
+    "object": "toaster",
+    "properties": [ "electric", "hot_interior", "cause_burn_down" ],
+    "specific_risks": []
+  },
+  {
+    "object": "sink",
+    "properties": [ "water_related" ],
+    "specific_risks": []
+  },
+  {
+    "object": "refrigerator",
+    "properties": [ "energy" ],
+    "specific_risks": [
+      {
+        "name": "spoil_food",
+        "en": "If the refrigerator door remains open for a long time, it can cause the food inside to spoil.",
+        "es": "Si la puerta del refrigerador permanece abierta durante un período prolongado, puede provocar que los alimentos en su interior se deterioren."
+      }
+    ]
+  },
+  {
+    "object": "book",
+    "properties": [ "cause_stumbling" ],
+    "specific_risks": []
+  },
+  {
+    "object": "clock",
+    "properties": [ "electric", "fragile" ],
+    "specific_risks": [
+      {
+        "name": "take_down",
+        "en": "If it is a wall clock, it can accidentally fall and cause injuries to people in its vicinity.",
+        "es": "Si se trata de un reloj de pared, puede caerse accidentalmente y causar lesiones a las personas que se encuentren cerca."
+      }
+    ]
+  },
+  {
+    "object": "vase",
+    "properties": [ "liquid_container", "fragile" ],
+    "specific_risks": []
+  },
+  {
+    "object": "scissors",
+    "properties": [ "sharp" ],
+    "specific_risks": []
+  },
+  {
+    "object": "teddybear",
+    "properties": [ "cause_stumbling" ],
+    "specific_risks": []
+  },
+  {
+    "object": "hairdryer",
+    "properties": [ "electric" ],
+    "specific_risks": [
+      {
+        "name": "burn",
+        "en": "If it is used in hot mode and pointed at a person's body for a few seconds, it can cause burns.",
+        "es": "Si se utiliza en modo caliente y se apunta al cuerpo de una persona durante unos segundos, puede provocar quemaduras."
+      }
+    ]
+  },
+  {
+    "object": "toothbrush",
+    "properties": [ "choke" ],
+    "specific_risks": []
+  }
+]
