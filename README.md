@@ -1,4 +1,4 @@
-# Indoor Risks Assessment using Video Captioning
+# Indoor Risks Assessment Using Video Captioning
 
 ![Pipeline used for evaluation](./images/risks_assessment_structure.png)
 
